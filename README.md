@@ -70,3 +70,7 @@ Each subfolder is a standalone mini-app, designed to help learn about routing, t
 - [EJS](https://ejs.co/)
 - [Bootstrap](https://getbootstrap.com/)
 - [Unsplash](https://unsplash.com/) for sample images
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
