@@ -1,0 +1,36 @@
+<%- include('partials/head') %>
+
+    <body>
+
+    <%- include('partials/navbar') %>
+    
+    <div class="container">
+    <h1>Browsing the <%= name %> page</h1>
+    <!-- Here we browsed our subQuery/name from data.json file -->
+    <h2><%= description %></h2>
+    <!-- description of the data.json file -->
+    <p><%= subscribers %> : Total Subs</p>
+    
+    <hr>
+
+    <div class="row">
+    <% for(let post of posts) { %>
+        <div class="col-md-6 col-lg-4 mb-4">
+            <div class="card h-100">
+                <% if(post.img){ %>
+                    <img src="<%= post.img %>" class="card-img-top" alt="Post image">
+                <% } %>
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%= post.title %>
+                        </h5>
+                        <p class="card-text"><b>By:</b>
+                            <%= post.author %>
+                        </p>
+                    </div>
+            </div>
+        </div>
+    <% } %>
+    </div>
+        
+<%- include('partials/footer') %>

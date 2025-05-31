@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+</head>
+<body>
+
+    <h1>Random Number Generator</h1>
+    <hr>
+    <hr>
+
+    <h2> Your random number is: <%= Math.floor(Math.random() * 15) + 1 %></h2>
+    <hr>
+    
+    <h2> Your 2nd random number is: <%= randomNum %></h2>
+    <!-- We get the exact outcome with a much simpler Template -->
+
+    <% if(randomNum % 2 === 0) { %>
+        <h3>That is an even number!</h3>
+    <% } else { %>
+        <h3>That is an odd number!</h3>
+    <% } %> <!-- This is how we embed logic into a template -->
+
+    <h4><%= randomNum%2===0 ? 'EVEN' : 'ODD'%></h4>
+    <!-- This line uses a shortcut for an if-else statement.
+    -- ? and : are shortcuts for if-else statements
+    -- ?= if, : = else -->
+    <hr>
+
+</body>
+</html>

@@ -1,0 +1,61 @@
+{
+    "chickens": {
+        "name": "Chickens",
+        "subscribers": 23456,
+        "description": "A place to post your photos, video and question about chickens",
+        "posts": [
+            {
+                "title": "Naughty chicken hid under a shed for 3 weeks and left the owners terrified.",
+                "author": "joe",
+                "img": "https://images.unsplash.com/photo-1611782303839-dd7d9dde9435?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "title": "Had to see my chicken die right in front of my eyes. Does it get  better with time?",
+                "author": "Unknown"
+            },
+            {
+                "title": "My five year old chicken set and hatched one baby.",
+                "author": "tammy",
+                "img": "https://images.unsplash.com/photo-1648825239412-81c04888b261?q=80&w=997&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+        ]
+    },
+    "mightyharvest": {
+        "name": "Mighty Harvest",
+        "subscribers": 44002,
+        "description": "Feeding many villages and village people",
+        "posts": [
+            {
+                "title": "My first lemon ripened today. I'm so proud of it.",
+                "author": "proudmum",
+                "img": "https://images.unsplash.com/photo-1519625149185-7626ff3a86bf?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            },
+            {
+                "title": "I think I  overestimated the harvet basket size.",
+                "author": "grower123",
+                "img": "https://images.unsplash.com/photo-1659667630176-1f2958367059?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            }
+        ]
+    },
+    "coding": {
+        "name": "Coding",
+        "subscribers": 101109,
+        "description": "A community for programmers to share tips, projects, and memes.",
+        "posts": [
+            {
+                "title": "Just finished my first JavaScript project!",
+                "author": "dev_guru",
+                "img": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=800&auto=format&fit=crop"
+            },
+            {
+                "title": "Why do programmers prefer dark mode?",
+                "author": "coder123"
+            },
+            {
+                "title": "Coding is like humor. If you have to explain it, it’s bad.",
+                "author": "funnydev",
+                "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=800&auto=format&fit=crop"
+            }
+        ]
+    }
+}

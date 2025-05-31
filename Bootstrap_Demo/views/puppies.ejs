@@ -1,0 +1,19 @@
+<%- include('partials/head') %>
+     
+    <body>
+
+    <%- include('partials/navbar') %>
+
+    <div class="container">
+    <h1>Puppies</h1>
+    <ul>
+    <% for(let pup of pups) { %> 
+        <!-- Iterated over pups Array -->
+    <li> <%= pup %> </li>
+        <!-- Added iterated array to list items -->
+    <% } %>
+    <!-- Here we added the logic to generate list items for each 'pup' -->
+    </ul>
+    </div>
+
+<%- include('partials/footer') %>

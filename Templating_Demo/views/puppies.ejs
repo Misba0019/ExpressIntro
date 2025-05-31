@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Pup Names</title>
+</head>
+<body>
+    <h1>Puppies</h1>
+    <ul>
+    <% for(let pup of pups) { %> 
+        <!-- Iterated over pups Array -->
+    <li> <%= pup %> </li>
+        <!-- Added iterated array to list items -->
+    <% } %>
+    <!-- Here we added the logic to generate list items for each 'pup' -->
+    </ul>
+
+</body>
+</html>

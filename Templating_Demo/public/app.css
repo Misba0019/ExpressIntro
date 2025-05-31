@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(212, 202, 228);
+    color: rgb(38, 8, 87);
+    margin: 0;
+    padding: 0 0 2rem 0;
+}
+
+h1 {
+    font-family: 'Arial', sans-serif;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    color: #4e2a8e;
+}
+
+.queries-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+article {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(38, 8, 87, 0.08);
+    margin: 2rem 0;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s;
+}
+
+article:hover {
+    box-shadow: 0 4px 16px rgba(38, 8, 87, 0.15);
+}
+
+article img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 6px;
+    box-shadow: 0 1px 4px rgba(38, 8, 87, 0.10);
+}
+
+.post-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.post-author {
+    font-size: 1rem;
+    color: #6c4a9c;
+    margin-bottom: 0.5rem;
+}
