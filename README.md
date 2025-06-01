@@ -2,8 +2,8 @@
 
 ## Overview
 
-**ExpressIntro** is a collection of beginner-friendly Node.js projects demonstrating the basics of building web applications using [Express.js](https://expressjs.com/), [EJS](https://ejs.co/), and [Bootstrap](https://getbootstrap.com/).  
-Each subfolder is a standalone mini-app, designed to help learn about routing, templating, static files, and dynamic content rendering.
+**ExpressIntro** is a collection of beginner-friendly Node.js projects demonstrating the basics of building web applications using [Express.js](https://expressjs.com/), [EJS](https://ejs.co/), and [Bootstrap](https://getbootstrap.com/).
+- Each subfolder is a standalone mini-app, designed to help learn about routing, templating, static files, and dynamic content rendering.
 
 ---
 
@@ -49,13 +49,12 @@ Each subfolder is a standalone mini-app, designed to help learn about routing, t
 - [Express.js](https://expressjs.com/)
 - [EJS](https://ejs.co/) (for templating projects)
 - [Bootstrap](https://getbootstrap.com/) (included via static files)
-- Modern web browser
 
 ---
 
 ## How It Works
 
-- Each folder is a separate Express app.
+Each folder is a separate Express app.
 - Routes are defined in `index.js` for each project.
 - EJS templates in the `views` folder render dynamic content.
 - Static assets (CSS, JS, images) are served from the `public` folder.
