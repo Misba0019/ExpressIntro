@@ -2,7 +2,7 @@
 
 ## Overview
 
-**ExpressIntro** is a collection of beginner-friendly Node.js projects demonstrating the basics of building web applications using [Express.js](https://expressjs.com/), [EJS](https://ejs.co/), and [Bootstrap](https://getbootstrap.com/).  
+**ExpressIntro** is a collection of beginner-friendly Node.js projects demonstrating the basics of building web applications using [Express.js](https://expressjs.com/), [EJS](https://ejs.co/), and a bit of [Bootstrap](https://getbootstrap.com/).  
 Each subfolder is a standalone mini-app, designed to help learn about routing, templating, static files, and dynamic content rendering.
 
 ---
@@ -25,7 +25,10 @@ Each subfolder is a standalone mini-app, designed to help learn about routing, t
     git clone https://github.com/Misba0019/ExpressIntro.git
     ```
 
-2. Open a terminal and navigate to any of the project folders (`Bootstrap_Demo`, `FirstApp`, or `Templating_Demo`).
+2. Open a terminal and navigate to any of the project folders (`Bootstrap_Demo`, `FirstApp`, or `Templating_Demo`):
+```
+cd Bootstrap_Demo
+```
 
 3. Install dependencies:
     ```
@@ -73,7 +76,7 @@ If you find this project helpful, please consider visiting the repo and giving i
 - [Express.js](https://expressjs.com/)
 - [EJS](https://ejs.co/)
 - [Bootstrap](https://getbootstrap.com/)
-- [Unsplash](https://unsplash.com/) for sample images
+- [Unsplash](https://unsplash.com/) - for sample images
 
 ## License
 
