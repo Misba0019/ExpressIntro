@@ -26,9 +26,9 @@ Each subfolder is a standalone mini-app, designed to help learn about routing, t
     ```
 
 2. Open a terminal and navigate to any of the project folders (`Bootstrap_Demo`, `FirstApp`, or `Templating_Demo`):
-```
-cd Bootstrap_Demo
-```
+    ```
+    cd Bootstrap_Demo
+    ```
 
 3. Install dependencies:
     ```
